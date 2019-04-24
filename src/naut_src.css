@@ -26,13 +26,13 @@ a {
 }
 
 ::-moz-selection {
-    background: #0079d3;
+    background: #ff9017;
     text-shadow: none;
     color: #fff;
 }
 
 ::selection {
-    background: #0079d3;
+    background: #ff9017;
     text-shadow: none;
     color: #fff;
 }
@@ -62,7 +62,7 @@ body .content .text, body .content textarea, body .content input[type=text], bod
 body .btn, body button, .c-btn-primary, .wiki-page .wiki-page-content .wiki_button {
     margin: 4px 16px 4px 0;
     padding: 0 16px;
-    background: #0079d3;
+    background: #ff9017;
     border: none;
     border-radius: 2px;
     color: #fff;
@@ -78,13 +78,13 @@ body .btn, body button, .c-btn-primary, .wiki-page .wiki-page-content .wiki_butt
 
     .btn:hover, button:hover, .c-btn-primary:hover, .wiki-page .wiki-page-content .wiki_button {
         color: #fff;
-        background: #158be2;
+        background: #ffa849;
         box-shadow: 0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12),0 2px 4px -1px rgba(0,0,0,.2);
     }
 
     .btn:active, button:active, .c-btn-primary:active, .wiki-page .wiki-page-content .wiki_button {
         color: #fff;
-        background: #0066b2;
+        background: #ea7a00;
         box-shadow: 0 2px 1.5px 0 rgba(0,0,0,.12),0 0 4px 0 rgba(0,0,0,.12);
     }
 
@@ -96,7 +96,7 @@ body .btn, body button, .c-btn-primary, .wiki-page .wiki-page-content .wiki_butt
 /* Header */
 #header {
     margin: 0;
-    height: 196px;
+    height: 192px;
     border: none;
     background: url(%%headerimg%%) 50% 50% / cover no-repeat;
     z-index: 1;
@@ -399,7 +399,7 @@ body:not(.loggedin) #header-bottom-right {
 }
 
 #header .tabmenu {
-    margin: 12px 0 0;
+    margin: 8px 0 0;
     display: block;
     height: 42px;
     line-height: 42px;
@@ -729,8 +729,8 @@ body .content .sitetable .link .title a:hover {
 }
 
     .expando-button:hover {
-        background-color: #0079d3;
-        border-color: #0079d3;
+        background-color: #ff9017;
+        border-color: #ff9017;
     }
 
     .expando-button.selftext.collapsed, .expando-button.crosspost.collapsed {
@@ -892,7 +892,7 @@ body .content .sitetable .link .title a:hover {
     }
 
     .tagline .userattrs .moderator {
-        background: #27b062;
+        background: #139b6d;
     }
 
     .tagline .userattrs .admin {
@@ -1089,12 +1089,12 @@ body .content .sitetable .link .title a:hover {
 }
 
 .linkflair-mod .linkflairlabel {
-    background: #27b062;
+    background: #139b6d;
     color: #fff;
 }
 
 .linkflair-mod .thumbnail.default, .linkflair-mod .thumbnail.self {
-    background: #27b062 url(%%spritesheet%%) -208px -104px;
+    background: #139b6d url(%%spritesheet%%) -208px -104px;
 }
 
 /* Reported & Spam / Remove / Approved */
@@ -1197,12 +1197,12 @@ b {
 
 /* Sticky Post */
 .thing.link.stickied a.title, .thing.link.stickied li a, .thing.link.stickied .entry li .comments {
-    color: #27b062 !important;
+    color: #139b6d !important;
 }
 
 .thing.link.stickied .expando-button:hover {
-    background-color: #27b062 !important;
-    border-color: #27b062 !important;
+    background-color: #139b6d !important;
+    border-color: #139b6d !important;
 }
 
 .tagline .stickied-tagline {
@@ -1212,7 +1212,7 @@ b {
 
 /* Sticky Comment */
 .stickied.comment > .entry a, .stickied.comment .tagline .stickied-tagline {
-    color: #27b062;
+    color: #139b6d;
 }
 
 /* Ad */
@@ -1647,7 +1647,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
     padding: 8px 16px;
     line-height: 26px;
     border: none;
-    background-color: #0079d3;
+    background-color: #ff9017;
     color: #fff;
     border-radius: 2px;
 }
@@ -1696,7 +1696,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 
     /* Locked Post */
     .reddit-infobar.with-icon.locked-infobar {
-        background: #27B062;
+        background: #139b6d;
     }
 
         .reddit-infobar.with-icon.locked-infobar .md {
@@ -1708,7 +1708,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
         }
 
         .reddit-infobar.with-icon.locked-infobar:before {
-            background-color: #27B062;
+            background-color: #139b6d;
             border-right: 1px solid rgba(0,0,0,0.08);
         }
 
@@ -1759,7 +1759,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 
 /* Sidebar */
 .side {
-    margin: 282px 16px 108px 0;
+    margin: 198px 16px 108px 0;
     padding: 0;
     background: none;
     width: 320px;
@@ -1769,7 +1769,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
         margin: 0 0 16px;
     }
 
-    /* Subreddit Box */
+    /* Subreddit Box 
     .side:before {
         height: 192px;
         background: url(%%sidebarimg%%);
@@ -1781,7 +1781,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
         z-index: 1;
         border-radius: 2px;
         box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
-    }
+    }*/
 
     /* Subreddit Name / Subscibers / Online */
     .side .titlebox h1.redditname:before {
@@ -1801,7 +1801,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
     .side .titlebox h1.redditname {
         margin-bottom: 6px;
         position: absolute;
-        top: 308px;
+        top: 224px;
         z-index: 100;
         font-family: Lato,Arial,sans-serif;
     }
@@ -1815,7 +1815,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
     z-index: 100;
     color: #333;
     font-size: 12px;
-    top: 336px;
+    top: 252px;
 }
 
 div.titlebox span.word {
@@ -1831,7 +1831,7 @@ div.titlebox span.word {
     }
 
 div.titlebox span.number:after {
-    content: " readers";
+    content: " Zookeepers";
 }
 
 .titlebox .users-online .number {
@@ -1848,7 +1848,7 @@ div.titlebox span.number:after {
     }
 
     .titlebox .users-online .number:after {
-        content: " currently online";
+        content: " playing with zebras";
     }
 
 .titlebox .word {
@@ -1864,7 +1864,7 @@ div.titlebox span.number:after {
     margin: 0;
     position: absolute;
     margin-left: 208px;
-    top: 314px;
+    top: 230px;
     z-index: 100;
 }
 
@@ -1891,7 +1891,7 @@ div.titlebox span.number:after {
 
         /* Subscribe */
         .titlebox .fancy-toggle-button .active.add {
-            background: #27b062;
+            background: #139b6d;
             color: #fff;
         }
 
@@ -1941,7 +1941,7 @@ div.titlebox span.number:after {
 /* Search */
 #search {
     position: absolute;
-    top: 384px;
+    top: 300px;
     z-index: 1;
     width: 320px;
 }
@@ -2057,7 +2057,7 @@ div.titlebox span.number:after {
 
 /* Submit Button */
 .morelink {
-    background: #0079d3;
+    background: #ff9017;
     height: 36px;
     border-radius: 2px;
     font-size: 14px;
@@ -2070,11 +2070,11 @@ div.titlebox span.number:after {
 }
 
     .morelink:hover {
-        background: #158be2;
+        background: #ffa849;
     }
 
     .morelink:active {
-        background: #0066b2;
+        background: #ea7a00;
         box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
     }
 
@@ -2145,7 +2145,7 @@ div.titlebox span.number:after {
 /* Submit Links */
 .submit .morelink {
     position: absolute;
-    top: 442px;
+    top: 358px;
     font-size: 0;
     width: 152px;
 }
@@ -2237,7 +2237,7 @@ div.titlebox span.number:after {
     padding: 0 16px;
     width: 100%;
     border-radius: 2px;
-    background: #0079d3;
+    background: #ff9017;
     font: 12px/42px Lato,Arial,sans-serif;
     color: #fff;
     display: block;
@@ -2248,12 +2248,12 @@ div.titlebox span.number:after {
 }
 
     .side .titlebox .md h3 a:hover {
-        background: #158be2;
+        background: #ffa849;
         box-shadow: 0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12),0 2px 4px -1px rgba(0,0,0,.2);
     }
 
     .side .titlebox .md h3 a:active {
-        background: #0066b2;
+        background: #ea7a00;
         box-shadow: 0 2px 1.5px 0 rgba(0,0,0,.12),0 0 4px 0 rgba(0,0,0,.12);
     }
 
@@ -2338,20 +2338,6 @@ div.titlebox span.number:after {
 /* Account Activity */
 .account-activity-box a {
     text-transform: uppercase;
-}
-
-/* /r/Naut Credits - Please do not remove this section */
-.side:after {
-    display: block;
-    margin: 0;
-    padding: 10px 0;
-    color: #24A0ED;
-    content: "Subreddit CSS Theme by /r/Naut";
-    font: 16px Lato,Arial,sans-serif;
-    position: absolute;
-    width: 320px;
-    border: 1px solid rgba(0,0,0,0.06);
-    text-align: center;
 }
 
 /* Comments Page */
@@ -2579,7 +2565,7 @@ div.titlebox span.number:after {
     }
 
 .green {
-    color: #27b062 !important;
+    color: #139b6d !important;
     font-weight: 700;
 }
 
@@ -2692,7 +2678,7 @@ div.titlebox span.number:after {
 
 /* Naut Blue */
 .res-nightmode .submit-page #url-field button, .res-nightmode .submit-page #newlink.submit.content .btn, .res-nightmode .sidebox.create .morelink {
-    background-color: #0079d3 !important;
+    background-color: #ff9017 !important;
 }
 
 /* Input Fields */
@@ -2985,7 +2971,7 @@ body.mod-toolbox .tb-action-button {
     }
 
     .read-next .read-next-button {
-        background-color: #0079d3;
+        background-color: #ff9017;
         color: #fff;
         font: 10px/16px monospace;
         height: 16px;
@@ -3043,7 +3029,7 @@ body.mod-toolbox .tb-action-button {
         position: relative;
         padding: 0;
         border: none;
-        background: #0079D3;
+        background: #ff9017;
         border-radius: 2px;
         box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
     }
@@ -3094,7 +3080,7 @@ body.mod-toolbox .tb-action-button {
 }
 
 .submit_text.enabled.roundfield {
-    background: #0079D3;
+    background: #ff9017;
 }
 
     .submit_text.enabled.roundfield .md {
@@ -3304,7 +3290,7 @@ body #newlink-with-image-upload .file-upload-button {
 }
 
     .combined-search-page .search-result-subreddit .search-subscribe-button .add, .combined-search-page .search-result-subreddit .search-subscribe-button .add:active {
-        background: #0079d3;
+        background: #ff9017;
         border: none;
         border-radius: 2px;
     }
@@ -3586,7 +3572,7 @@ ul.image-preview-list {
 
 .subreddit-rules-page .subreddit-rule-buttons button, .subreddit-rules-page .subreddit-rule-add-form-buttons button, .subreddit-rules-page .form-buttons button, .subreddit-rule-delete-confirmation button {
     padding: 0 16px;
-    background: #0079d3;
+    background: #ff9017;
     border: none;
     border-radius: 2px;
     color: #fff;
@@ -3601,13 +3587,13 @@ ul.image-preview-list {
 
     .subreddit-rules-page .subreddit-rule-buttons button:hover, .subreddit-rules-page .subreddit-rule-add-form-buttons button:hover, .subreddit-rules-page .form-buttons button:hover, .subreddit-rule-delete-confirmation button:hover {
         color: #fff;
-        background: #158be2;
+        background: #ffa849;
         box-shadow: 0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12),0 2px 4px -1px rgba(0,0,0,.2);
     }
 
     .subreddit-rules-page .subreddit-rule-buttons button:active, .subreddit-rules-page .subreddit-rule-add-form-buttons button:active, .subreddit-rules-page .form-buttons button:active, .subreddit-rule-delete-confirmation button:active {
         color: #fff;
-        background: #0066b2;
+        background: #ea7a00;
         box-shadow: 0 2px 1.5px 0 rgba(0,0,0,.12),0 0 4px 0 rgba(0,0,0,.12);
     }
 
@@ -3664,12 +3650,6 @@ ul.image-preview-list {
     }
 
 /* Footer */
-.footer-parent {
-    height: 800px;
-    margin-top: 192px;
-    padding: 528px 0 64px;
-    background: url(%%footer%%) 50% 0 / cover no-repeat;
-}
 
 .footer {
     border: 0 solid;
@@ -3702,7 +3682,7 @@ ul.image-preview-list {
 }
 
 .res .thing .tagline .author.moderator {
-    background-color: #27b062 !important;
+    background-color: #139b6d !important;
     color: #FFF;
     padding: 1px 4px;
     border-radius: 1px;
