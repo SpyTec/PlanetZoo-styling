@@ -2241,6 +2241,7 @@ div.titlebox span.number:after {
 
 .side .titlebox .md h2 {
     margin: 16px 0 12px;
+    text-shadow: 0 1px 1px rgba(0,0,0,.33);
     color: white;
     background: #139b6d;
     padding: 6px 22px;
@@ -2279,30 +2280,47 @@ div.titlebox span.number:after {
     border-color: #0e7753 transparent transparent transparent;
 }
 
+
 /* Buttonstyle H3 */
 .side .titlebox .md h3 a {
-    padding: 0 16px;
-    width: 100%;
-    border-radius: 2px;
-    background: #ff9017;
-    font: 12px/42px Lato,Arial,sans-serif;
-    color: #fff;
     display: block;
-    margin: 1.5em 0;
+    border: 0;
+    padding: 8px 5px;
+    margin: 0;
+    border-radius: 50px;
+    background-color: #ff9017;
+    color: #fff;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 10pt;
+    font-weight: 400;
     text-align: center;
-    box-shadow: 0 2px 1.5px 0 rgba(0,0,0,.12),0 0 4px 0 rgba(0,0,0,.12);
-    transition: box-shadow .2s cubic-bezier(.4,0,1,1),background .2s cubic-bezier(.4,0,.2,1),color .2s cubic-bezier(.4,0,.2,1);
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0,0,0,.33);
+    -webkit-box-shadow: inset 0 2px 0 0 hsla(0,0%,100%,.25),0 5px 10px 0 rgba(0,0,0,.25);
+    box-shadow: inset 0 2px 0 0 hsla(0,0%,100%,.25),0 5px 10px 0 rgba(0,0,0,.25);
+    background-image: url(%%pattern-zebra%%);
+    background-size: 200px 200px;
+    background-position: 50%;
+    -webkit-transition: background-size .15s ease-in-out;
+    transition: background-size .15s ease-in-out;
 }
 
     .side .titlebox .md h3 a:hover {
-        background: #ffa849;
-        box-shadow: 0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12),0 2px 4px -1px rgba(0,0,0,.2);
+        background-size: 220px 220px;
     }
 
     .side .titlebox .md h3 a:active {
-        background: #ea7a00;
-        box-shadow: 0 2px 1.5px 0 rgba(0,0,0,.12),0 0 4px 0 rgba(0,0,0,.12);
+        text-shadow: 0 -1px 1px rgba(0,0,0,.33);
+        -webkit-box-shadow: inset 0 2px 0 0 rgba(0,0,0,.25),0 2px 8px 0 rgba(0,0,0,.15);
+        box-shadow: inset 0 2px 0 0 rgba(0,0,0,.25),0 2px 8px 0 rgba(0,0,0,.15);
+        background-size: 200px 200px;
     }
+
+
+.side .titlebox .md h3 a[href$="#discord"] {
+    background-color: #7289DA;
+}
 
 .side .titlebox .md h4 a {
     padding: 0 16px;
@@ -2853,10 +2871,10 @@ div.titlebox span.number:after {
 }
 
 /* Toolbox */
-body.mod-toolbox .tb-action-button {
+/* body.mod-toolbox .tb-action-button {
     height: 22px !important;
     line-height: 0px;
-}
+} */
 
 /* Comment Body Text */
 .comment .usertext .md {
