@@ -2287,6 +2287,7 @@ div.titlebox span.number:after {
     border: 0;
     padding: 8px 5px;
     margin: 0;
+    position: relative;
     border-radius: 50px;
     background-color: #ff9017;
     color: #fff;
@@ -2317,10 +2318,21 @@ div.titlebox span.number:after {
         background-size: 200px 200px;
     }
 
-
 .side .titlebox .md h3 a[href$="#discord"] {
     background-color: #7289DA;
 }
+
+    .side .titlebox .md h3 a[href$="#discord"]::before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 26px;
+        height: 26px;
+        top: 5.5px;
+        left: 5.5px;
+        background-image: url("%%discord-icon%%");
+        background-repeat: no-repeat;
+    }
 
 .side .titlebox .md h4 a {
     padding: 0 16px;
